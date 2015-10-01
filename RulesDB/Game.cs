@@ -1,0 +1,21 @@
+﻿using System;
+using System.Collections.Generic;
+using System.Linq;
+using System.Text;
+using System.Threading.Tasks;
+
+namespace RulesDB
+{
+    class Game
+    {
+        public int ID;
+        public int Views = 0;
+        public string Title;
+        public string Type;
+        public DateTime CreateDate;
+        public DateTime EditDate;
+        public string Author;
+        public string Description;
+        public string[] Requirement;
+    }
+}
