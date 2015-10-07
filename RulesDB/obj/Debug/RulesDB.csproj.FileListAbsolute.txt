@@ -1,3 +1,4 @@
 c:\users\nez\documents\visual studio 2015\Projects\RulesDB\RulesDB\bin\Debug\RulesDB.exe.config
 C:\Users\Nez\Documents\GitHubVisualStudio\RulesDB\RulesDB\bin\Debug\RulesDB.exe.config
 C:\Users\Sam\Documents\GitHub\visual2015\eal\RulesDB\RulesDB\bin\Debug\RulesDB.exe.config
+C:\Users\Sam\Documents\GitHub\eal\RulesDB\RulesDB\bin\Debug\RulesDB.exe.config

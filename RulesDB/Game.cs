@@ -11,11 +11,11 @@ namespace RulesDB
         public int ID;
         public int Views = 0;
         public string Title;
-        public string Type;
+        public enum Type {Child = 0, Drink = 1};
         public DateTime CreateDate;
         public DateTime EditDate;
         public string Author;
         public string Description;
-        public string[] Requirement;
+        public string Requirement;
     }
 }
