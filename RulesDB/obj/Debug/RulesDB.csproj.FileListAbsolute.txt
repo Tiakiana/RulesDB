@@ -2,3 +2,11 @@ c:\users\nez\documents\visual studio 2015\Projects\RulesDB\RulesDB\bin\Debug\Rul
 C:\Users\Nez\Documents\GitHubVisualStudio\RulesDB\RulesDB\bin\Debug\RulesDB.exe.config
 C:\Users\Sam\Documents\GitHub\visual2015\eal\RulesDB\RulesDB\bin\Debug\RulesDB.exe.config
 C:\Users\Sam\Documents\GitHub\eal\RulesDB\RulesDB\bin\Debug\RulesDB.exe.config
+C:\Users\Sam\Documents\GitHub\visual2015\eal\RulesDB\RulesDB\bin\Debug\RulesDB.exe
+C:\Users\Sam\Documents\GitHub\visual2015\eal\RulesDB\RulesDB\bin\Debug\RulesDB.pdb
+C:\Users\Sam\Documents\GitHub\visual2015\eal\RulesDB\RulesDB\obj\Debug\RulesDB.csprojResolveAssemblyReference.cache
+C:\Users\Sam\Documents\GitHub\visual2015\eal\RulesDB\RulesDB\obj\Debug\RulesDB.Properties.Resources.resources
+C:\Users\Sam\Documents\GitHub\visual2015\eal\RulesDB\RulesDB\obj\Debug\RulesDB.csproj.GenerateResource.Cache
+C:\Users\Sam\Documents\GitHub\visual2015\eal\RulesDB\RulesDB\obj\Debug\RulesDB.exe
+C:\Users\Sam\Documents\GitHub\visual2015\eal\RulesDB\RulesDB\obj\Debug\RulesDB.pdb
+C:\Users\Sam\Documents\GitHub\visual2015\eal\RulesDB\RulesDB\obj\Debug\RulesDB.FormHome.resources

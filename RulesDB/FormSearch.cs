@@ -10,9 +10,9 @@ using System.Windows.Forms;
 
 namespace RulesDB
 {
-    public partial class Home : Form
+    public partial class FormSearch : Form
     {
-        public Home()
+        public FormSearch()
         {
             InitializeComponent();
         }
