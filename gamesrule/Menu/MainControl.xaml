@@ -1,0 +1,18 @@
+﻿<UserControl x:Class="gamesrule.MainControl"
+             xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+             xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+             xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006" 
+             xmlns:d="http://schemas.microsoft.com/expression/blend/2008" 
+             xmlns:local="clr-namespace:gamesrule"
+             mc:Ignorable="d" 
+             d:DesignHeight="600" d:DesignWidth="400">
+    <Grid>
+        <Label x:Name="label" Content="Search" HorizontalAlignment="Center" Margin="0,30,0,0" VerticalAlignment="Top"/>
+        <TextBox x:Name="boxSearch" HorizontalAlignment="Center" Width="200" Height="25" Margin="0,60,0,0" TextWrapping="Wrap" VerticalAlignment="Top" KeyDown="boxSearch_KeyDown"/>
+        <Label x:Name="label1" Content="10 New Games" HorizontalAlignment="Center" Margin="0,110,0,0" VerticalAlignment="Top"/>
+        <ListBox x:Name="listBoxNewGame" HorizontalAlignment="Center" Width="150" Height="200" Margin="0,140,0,0" VerticalAlignment="Top" MouseDoubleClick="listBoxNewGame_MouseDoubleClick"/>
+        <Button x:Name="buttonAddGame" Content="Add Game" Width="100" Padding="0,10" HorizontalAlignment="Left" Margin="20,0,0,20" VerticalAlignment="Bottom" Click="buttonAddGame_Click"/>
+        <Button x:Name="buttonMenu" Content="Menu" Width="100" Padding="0,10" HorizontalAlignment="Right" Margin="0,0,20,20" VerticalAlignment="Bottom" Click="buttonMenu_Click"/>
+        <Button x:Name="buttonRandom" Content="Random Pick" Width="100" Padding="0,10" HorizontalAlignment="Center" Margin="0,0,0,20" VerticalAlignment="Bottom"/>
+    </Grid>
+</UserControl>

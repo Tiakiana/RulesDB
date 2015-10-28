@@ -1,0 +1,20 @@
+﻿<UserControl x:Class="gamesrule.SearchControl"
+             xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+             xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+             xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006" 
+             xmlns:d="http://schemas.microsoft.com/expression/blend/2008" 
+             xmlns:local="clr-namespace:gamesrule"
+             mc:Ignorable="d" 
+             d:DesignHeight="600" d:DesignWidth="400">
+    <Grid>
+        <Label x:Name="labelTitle" Content="Search" HorizontalAlignment="Center" Margin="0,30,0,0" VerticalAlignment="Top"/>
+        <TextBox x:Name="boxSearch" HorizontalAlignment="Center" Width="160" Height="25" Margin="0,60,0,0" TextWrapping="Wrap" VerticalAlignment="Top" KeyDown="searchBox_KeyDown"/>
+        <ListBox x:Name="listBoxResult" HorizontalAlignment="Center" Width="200" Height="250" Margin="0,110,0,0" VerticalAlignment="Top"/>
+        <Button x:Name="buttonEditGame" Content="Search" Width="100" Padding="0,10" HorizontalAlignment="Left" Margin="20,0,0,20" VerticalAlignment="Bottom"/>
+        <Button x:Name="buttonMenu" Content="Menu" Width="100" Padding="0,10" HorizontalAlignment="Center" Margin="0,0,0,20" VerticalAlignment="Bottom"/>
+        <Button x:Name="buttonBack" Content="Back" Width="100" Padding="0,10" HorizontalAlignment="Right" Margin="0,0,20,20" VerticalAlignment="Bottom" Click="buttonBack_Click"/>
+        <Label Content="Number of result: " HorizontalAlignment="Left" Margin="90,380,0,0" VerticalAlignment="Top"/>
+        <Label x:Name="labelResult" Content="0" HorizontalAlignment="Left" Margin="190,380,0,0" VerticalAlignment="Top"/>
+        
+    </Grid>
+</UserControl>

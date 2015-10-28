@@ -1,0 +1,19 @@
+﻿<UserControl x:Class="gamesrule.Menu.LoginControl"
+             xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+             xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+             xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006" 
+             xmlns:d="http://schemas.microsoft.com/expression/blend/2008" 
+             xmlns:local="clr-namespace:gamesrule.Menu"
+             mc:Ignorable="d" 
+             d:DesignHeight="600" d:DesignWidth="400">
+    <Grid>
+        <Label x:Name="labelGame" Content="Login" HorizontalAlignment="Center" Margin="0,30,0,0" VerticalAlignment="Top"/>
+        <Label x:Name="labelUsername" Content="Username" HorizontalAlignment="Left" Margin="50,80,0,0" VerticalAlignment="Top"/>
+        <TextBox x:Name="boxUsername" HorizontalAlignment="Center" Width="190" Height="25" Margin="125,80,85,0" TextWrapping="Wrap" VerticalAlignment="Top"/>
+        <Label x:Name="labelPassword" Content="Password" HorizontalAlignment="Left" Margin="50,120,0,0" VerticalAlignment="Top"/>
+        <TextBox x:Name="boxPassword" HorizontalAlignment="Center" Width="190" Height="25" Margin="125,120,85,0" TextWrapping="Wrap" VerticalAlignment="Top"/>
+        
+        <Button x:Name="buttonLogin" Content="Login" Width="100" Padding="0,10" HorizontalAlignment="Left" Margin="80,0,0,20" VerticalAlignment="Bottom"/>
+        <Button x:Name="buttonBack" Content="Back" Width="100" Padding="0,10" HorizontalAlignment="Right" Margin="0,0,80,20" VerticalAlignment="Bottom"/>
+    </Grid>
+</UserControl>
